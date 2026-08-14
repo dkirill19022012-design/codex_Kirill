@@ -1,0 +1,35 @@
+/* Базовые стили для карточки */
+.card {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  width: 400px;
+  height: 360px;
+  border-radius: 30px;
+  margin-left: 460px;
+}
+body{
+  background-color: rgb(201, 67, 201);
+}
+/* Кнопка «Нет» уворачивается, кнопка «Да» увеличивается */
+.btn-no {
+  translate: var(--dx) var(--dy);
+  scale: var(--shrink);
+  transition: translate .2s, scale .2s;
+}
+
+.btn-yes {
+  scale: var(--grow);
+}
+img{
+ 
+  margin-top: 30px;
+ width:400;
+height:300;
+text-align: center;
+ border-radius: 30px;
+}
+        .frame {
+    border: 4px dashed red; /* толщина, стиль, цвет */
+    padding: 10px;          /* отступ от содержимого до рамки */
+    display: inline-block;  /* чтобы рамка подстраивалась под содержимое */  }
